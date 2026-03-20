@@ -5,6 +5,15 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "userInterfaceStyle": "dark",
+    "ios": {
+      "bundleIdentifier": "com.shuragram.app",
+      "buildNumber": "1.0.0",
+      "infoPlist": {
+        "UIBackgroundModes": ["audio"],
+        "NSMicrophoneUsageDescription": "Shuragram needs access to microphone for voice messages",
+        "NSCameraUsageDescription": "Shuragram needs access to camera for video calls"
+      }
+    },
     "android": {
       "package": "com.shuragram.app",
       "permissions": ["INTERNET"]
