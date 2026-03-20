@@ -17,6 +17,11 @@
     "android": {
       "package": "com.shuragram.app",
       "permissions": ["INTERNET"]
+    },
+    "extra": {
+      "eas": {
+        "projectId": "ваш-project-id-сюда"
+      }
     }
   }
 }
