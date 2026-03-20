@@ -13,6 +13,11 @@
       "package": "com.shuragram.app",
       "permissions": ["INTERNET"],
       "versionCode": 1
+    },
+    "extra": {
+      "eas": {
+        "projectId": "45e63b2c-7247-49c8-a103-54581a99ade3"
+      }
     }
   }
 }
