@@ -39,20 +39,8 @@
       ],
       "versionCode": 1
     },
-    "plugins": [
-      [
-        "expo-build-properties",
-        {
-          "android": {
-            "usesCleartextTraffic": false
-          }
-        }
-      ]
-    ],
-    "extra": {
-      "eas": {
-        "projectId": "your-project-id"
-      }
+    "web": {
+      "favicon": "./assets/favicon.png"
     }
   }
 }
